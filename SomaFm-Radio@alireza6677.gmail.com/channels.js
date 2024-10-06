@@ -10,6 +10,12 @@ import { extPath } from "./extension.js";
 
 export const channels = [
     {
+        name: "HRINFO",
+        link: "https://dispatcher.rndfnk.com/hr/hrinfo/live/mp3/high",
+        pic: "https://www.hr-inforadio.de/assets_4.0.0/base/icons/logo/brandlogo--desk.min.svg",
+        num: 0,
+    },
+    {
         name: "Groove Salad",
         link: "http://ice3.somafm.com/groovesalad-128-aac",
         pic: "/images/groovesalad.png",
