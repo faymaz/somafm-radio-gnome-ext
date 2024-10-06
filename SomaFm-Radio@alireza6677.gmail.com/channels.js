@@ -10,12 +10,6 @@ import { extPath } from "./extension.js";
 
 export const channels = [
     {
-        name: "HRINFO",
-        link: "https://dispatcher.rndfnk.com/hr/hrinfo/live/mp3/high",
-        pic: "/images/brandlogo--desk.min.svg",
-        num: 0,
-    },
-    {
         name: "Groove Salad",
         link: "http://ice3.somafm.com/groovesalad-128-aac",
         pic: "/images/groovesalad.png",
@@ -257,6 +251,12 @@ const holidayChannels = [
         link: "http://ice4.somafm.com/jollysoul-128-aac",
         pic: "/images/jollysoul120.png",
         num: 39,
+    },
+    {
+        name: "HRINFO",
+        link: "https://dispatcher.rndfnk.com/hr/hrinfo/live/mp3/high",
+        pic: "/images/brandlogo--desk.min.svg",
+        num: 40,
     },
 ];
 
