@@ -12,7 +12,7 @@ export const channels = [
     {
         name: "HRINFO",
         link: "https://dispatcher.rndfnk.com/hr/hrinfo/live/mp3/high",
-        pic: "https://www.hr-inforadio.de/assets_4.0.0/base/icons/logo/brandlogo--desk.min.svg",
+        pic: "/images/brandlogo--desk.min.svg",
         num: 0,
     },
     {
