@@ -10,9 +10,9 @@ import { extPath } from "./extension.js";
 
 export const channels = [
     {
-        name: "Groove Salad",
-        link: "http://ice3.somafm.com/groovesalad-128-aac",
-        pic: "/images/groovesalad.png",
+        name: "HRINFO",
+        link: "https://dispatcher.rndfnk.com/hr/hrinfo/live/mp3/high",
+        pic: "/images/hrinfo.png",
         num: 0,
     },
     {
@@ -251,18 +251,6 @@ const holidayChannels = [
         link: "http://ice4.somafm.com/jollysoul-128-aac",
         pic: "/images/jollysoul120.png",
         num: 39,
-    },
-    {
-        name: "HRINFO",
-        link: "https://dispatcher.rndfnk.com/hr/hrinfo/live/mp3/high",
-        pic: "/images/hrinfo.png",
-        num: 40,
-    },
-    {
-        name: "Metropol FM",
-        link: "https://metropol-fm.api.radiosphere.io/audio/0a320c0c-f28c-4a50-bf5f-5dd3d56856ac/stream.mp3",
-        pic: "/images/metropol-fm.png",
-        num: 41,
     },
 ];
 
