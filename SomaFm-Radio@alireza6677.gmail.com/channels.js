@@ -258,6 +258,12 @@ const holidayChannels = [
         pic: "/images/hrinfo.png",
         num: 40,
     },
+    {
+        name: "Metropol FM",
+        link: "https://metropol-fm.api.radiosphere.io/audio/0a320c0c-f28c-4a50-bf5f-5dd3d56856ac/stream.mp3",
+        pic: "/images/metropol-fm.png",
+        num: 41,
+    },
 ];
 
 export const Channel = class Channel {
