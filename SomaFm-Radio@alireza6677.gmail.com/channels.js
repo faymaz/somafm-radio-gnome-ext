@@ -255,7 +255,7 @@ const holidayChannels = [
     {
         name: "HRINFO",
         link: "https://dispatcher.rndfnk.com/hr/hrinfo/live/mp3/high",
-        pic: "/images/brandlogo--desk.min.svg",
+        pic: "/images/hrinfo.png",
         num: 40,
     },
 ];
