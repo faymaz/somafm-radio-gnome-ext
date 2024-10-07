@@ -14,7 +14,7 @@ import * as PopupMenu from "resource:///org/gnome/shell/ui/popupMenu.js";
 import * as Slider from "resource:///org/gnome/shell/ui/slider.js";
 import * as Main from "resource:///org/gnome/shell/ui/main.js";
 
-import * as Channels from "./channels.js";
+import * as Channels from "./my_channels.js";
 import * as Radio from "./radio.js";
 import * as Data from "./data.js";
 
@@ -211,7 +211,7 @@ const SomaFMPopup = GObject.registerClass(
                 this.setLoading(false);
                 this.setError(false);
             });
-            
+
             this.loadingBox.add_child(this.spinner);
             this.loadingBox.add_child(this.loadtxt);
             this.box.add_child(this.loadingBox);
@@ -295,7 +295,7 @@ const SomaFMPanelButton = GObject.registerClass(
             let channelsMenu = new PopupMenu.PopupSubMenuMenuItem("Channels");
             channelsMenu.menu.actor.add_style_class_name("somafm-popup-sub-menu");
             this.menu.addMenuItem(channelsMenu);
-            
+
             Channels.getChannels().forEach((ch) => {
                 channelsMenu.menu.addMenuItem(
                     new Channels.ChannelBox(ch, player, popup),
